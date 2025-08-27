@@ -34,10 +34,10 @@ int main()
     cout << "------- Excercise ---------"<<endl;
     
     // Declare variables
-    string country = "country"
-    char gender = "gender"
-    int zipcode = "zipcode"
-    float rate = "rate"
+    string country = "country";
+    char gender = "gender";
+    int zipcode = "zipcode";
+    float rate = "rate";
     
     // Collect data
     cout << "Type a country: "<<endl;
