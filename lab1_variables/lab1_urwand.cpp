@@ -32,10 +32,28 @@ int main()
     cout<<"Given number = "<<number<<endl;
 
     cout << "------- Excercise ---------"<<endl;
+    
     // Declare variables
-
+    string country = "country";
+    char gender = "gender";
+    int zipcode = "zipcode";
+    float rate = "rate";
+    
     // Collect data
+    cout << "Type a country: "<<endl;
+    cin >> country;
+    cout << "Enter your gender (m for male or f for female): "<<endl;
+    cin >> gender;
+    cout << "Enter your zipcode: "<<endl;
+    cin >> zipcode;
+    cout >> "Enter your tax rate: "<<endl;
+    cin << rate;
+
 
     // Print results
+    cout << "Entered country: "<<country<<endl;
+    cout << "Entered gender: "<<gender<<endl;
+    cout << "Entered zipcode: "<<zipcode<<endl;
+    cout << "Entered tax rate: "<<rate<<endl;
     return 0;
 }
