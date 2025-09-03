@@ -78,6 +78,6 @@ int main(){
     float m = n/2.0 ; 
 
     cout<<"implicit casting = "<<m<<endl;
-
-    return 0;
+ 
+    return 0; 
 }
