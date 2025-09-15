@@ -138,12 +138,23 @@ int main () {
         cout<<"Keep saving!"<<endl;
     }
     else if (200000 <= money && money <= 500000){
+        cout<<"Apartment or co-op"<<endl;
         if(200000 <= money && money <= 300000)
             cout<<"Studio"<<endl;
         else if (300001 <= money && money <= 400000)
             cout<< "1BR + 1 Bath"<<endl;
         else if (400001 <= money && money <= 500000)
             cout<< "2 BRs + 1 Bath"<<endl;
+    }
+       
+
+    
+    else if (500001 <= money && money <= 1000000){
+        cout<<"House"<<endl;
+        if(500001 <= money && money <= 700000)
+            cout<<"2 BRs + 2 Baths"<<endl;
+        else if (700001 <= money && money <= 1000000)
+            cout<< "3 BRs + 3 Baths"<<endl;
     }
 
 
