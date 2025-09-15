@@ -42,7 +42,7 @@ int main () {
     int index_word = message.find("ma");
     cout<< "Index: " << index_word <<endl; 
 
-  //string replaced_word = message.replace(-1, "ma", "%---%");
+    string replaced_word = message.replace(-1, "ma", "%---%");
     cout << "New message: " << replaced_word << endl;
 
     cout << "------------------------------ RESULT ACTIVITY 1 ----------------------------" << endl;
