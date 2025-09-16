@@ -128,7 +128,7 @@ int main () {
         break;
     }
 
-    cout <<"\n----- Exercise --------" << endl;
+    cout <<"\n----- Exercise 1 --------" << endl;
 
     int money;
     cout<<"How much money do you have?(Don't include $ or commas)"<<endl;
@@ -164,6 +164,7 @@ int main () {
         cout << "Have some savings!"<<endl;
     }
 
+    cout <<"\n----- Exercise 2 --------" << endl;
 
 
 
