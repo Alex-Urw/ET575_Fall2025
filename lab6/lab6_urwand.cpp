@@ -157,6 +157,13 @@ int main () {
             cout<< "3 BRs + 3 Baths"<<endl;
     }
 
+    else if (1000001 <= money && money >= 1000001){
+        cout<<"Mansion"<<endl;
+    }
+    else if (money < 0){
+        cout << "Have some savings!"<<endl;
+    }
+
 
 
 
