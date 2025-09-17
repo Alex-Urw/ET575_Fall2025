@@ -128,6 +128,8 @@ int main () {
         break;
     }
 
+
+    
     cout <<"\n----- Exercise 1 --------" << endl;
 
     int money;
@@ -165,6 +167,33 @@ int main () {
     }
 
     cout <<"\n----- Exercise 2 --------" << endl;
+
+    int number;
+    char question;
+
+    cout<< "Type a number: "<<endl;
+    cin>>number;
+    cout<< "Would you like to double the number? "<<endl;
+    cout<<"Type Y or y for yes, or type N or n for no: "<<endl;
+    cin>>question;
+
+    switch(question)
+    {
+        case 'y': case 'Y':
+            number *= 2;
+            cout<<"Your number is set to: "<<number<<endl;
+            break;
+
+        case 'n': case 'N':
+            cout<<"The number is set to: "<<number<<endl;
+            break;
+
+        default:
+            number = 0;
+            cout<< "Your number is set to: "<<number<<endl;
+
+    }
+
 
 
 
