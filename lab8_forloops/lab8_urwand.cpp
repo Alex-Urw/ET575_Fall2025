@@ -99,11 +99,26 @@ int main () {
     cout<<"Enter an initial value: " << endl;
     cin>>user_input;
 
+    // Below I write my for loop
+    // For the variable user_input, as long as that integer is <= 30, the integer will increase by 4 up to 30.
+
+
     for(user_input; user_input <= 30; user_input += 4) {
+    // Here, I use an if statement saying that if the inputted value is larger than 30 it will print an invalid message.
+    // I put a break to stop it from continuously looping if that condition is met.
+    // I'm not sure why but my cout message won't print and I'm not sure how to solve it.
         if(user_input > 30) {
             cout << "That is not a valid entry." << endl;
+        break;
         }
-        cout << user_input<< endl;
+
+        // Here, I use an else if statement saying if the first condition above isn't met, verify that the integer is <= 30 and if so, print it out.
+        // When doing so, it gradually increases in increments of 4 and stops at 30.
+        else if (user_input <= 30) {
+        cout << user_input << endl;
+        }
+
+        // Exercise 2 is complete.
 
     }
    // cout << user_input<< endl;
