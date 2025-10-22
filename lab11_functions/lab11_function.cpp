@@ -94,7 +94,7 @@ bool checkeven(int numb){
     }
 }
 
-bool printanswer(int numb, bool){
-    cout<<numb<<" being even is "<<printanswer(numb)<<endl;
+void printanswer(int z, bool numb){
+    cout<<"Is "<<z<<" even? "<<numb<<endl;
     
 }

@@ -51,11 +51,14 @@ int main(){
 
     cout<<"----- EXERCISE -----"<<endl;
 
-    // First function demonstrated
+    // Both Functions fully demonstrated
     int z = 8;
     bool numb = checkeven(z);
     
-    printanswer(z);
+    printanswer(z, numb);
+
+    // Exercise is complete
+    
      return 0;
 
 
