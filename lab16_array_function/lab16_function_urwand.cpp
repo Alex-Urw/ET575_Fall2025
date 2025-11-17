@@ -69,7 +69,7 @@ int search (const int *arr, int numberuserindex, int target){
 }
 
 //function to print result
-void printresult(int resultsearch){
+void printresult(int resultsearch, int target){
     cout<<"Is "<<target<<" in the array? "<<resultsearch<<endl;
 }
 

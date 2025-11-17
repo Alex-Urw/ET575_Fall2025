@@ -32,13 +32,13 @@ int main(){
     printarray(listsize, arr_pos_numbers); 
     int resultsearch = search(arr_pos_numbers, listsize, targetnumber);
 
-    printresult(resultsearch,targetnumber );
+    printresult(resultsearch,targetnumber);
 
     cout<<"\n ----- EXERCISE -----"<<endl;
 
     //initialize variables and array
-    int arr_number[] = {6, -10, 9, 12, -3, -8, 5, 7, 4,0}
-    
+    int arr_number[] = {6, -10, 9, 12, -3, -8, 5, 7, 4,0};
+
 
     return 0;
 }
