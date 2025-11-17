@@ -1,0 +1,76 @@
+/*
+Alexander Urwand
+Lab 16, Array in a Function
+Nov 17, 2025
+*/
+
+#include <iostream>
+using namespace std;
+
+//example 1: function to populate array with numbers.
+//the numbers are collected from the user
+void fillup(int sizearray, int arr[]){
+    for (int i = 0; i < sizearray; i++){
+        cout<<"Enter a number: ";
+        cin>>arr[i];
+    }
+    cout<<endl;
+
+}
+
+// function to print values in an array
+void printarray(int sizearray, int arr[]){
+    for (int i = 0; i<sizearray; i++) {
+        cout<<arr[i]<<"\t";
+    }
+    cout<<endl;
+
+}
+
+//example 2: collect positive numbers (max 10 numbers), and search if a number exists among the collected numbers
+//function to collect non-negative number (max 10 numbers). If a negative number is entered, the fucntion will stop, 
+const int ARRAY_SIZE = 10;
+
+void fillarray(int *arr, int &numberuserindex){
+    int number, index =0;
+
+    do{
+        cout<<"Enter a positive number: ";
+        cin>>number;
+        if(number>0){
+            arr[index] = number;
+            index ++;
+        }
+
+
+    }while(number>0 && index < ARRAY_SIZE);
+
+
+
+    //update the value of variable numberuserindex, which is the last index of all positive numbers
+    numberuserindex = index;
+}
+
+//search function to search fpr a number in the array
+int search (const int *arr, int numberuserindex, int target){
+    int index = 0;
+    bool found = false;
+
+    while((!found) && (index<numberuserindex)){
+        if(target == arr[index])
+            found = true;
+        else
+            index ++;
+    }
+    if(found)
+        return index;
+    else
+        return -1;
+}
+
+//function to print result
+void printresult(int resultsearch){
+    cout<<"Is "<<target<<" in the array? "<<resultsearch<<endl;
+}
+
+//EXERCISE 
