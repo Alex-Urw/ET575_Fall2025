@@ -5,6 +5,7 @@ Nov 17, 2025
 */
 
 #include <iostream>
+
 using namespace std;
 
 //example 1: function to populate array with numbers.
@@ -74,3 +75,7 @@ void printresult(int resultsearch, int target){
 }
 
 //EXERCISE 
+
+void populate(int array[3][4]){
+
+}
